@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/danielgiorgiani/source/quorum-coding-challenge/quorum-data/quorum-data.csproj": {}
+  },
+  "projects": {
+    "/home/danielgiorgiani/source/quorum-coding-challenge/quorum-data/quorum-data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/danielgiorgiani/source/quorum-coding-challenge/quorum-data/quorum-data.csproj",
+        "projectName": "quorum-data",
+        "projectPath": "/home/danielgiorgiani/source/quorum-coding-challenge/quorum-data/quorum-data.csproj",
+        "packagesPath": "/home/danielgiorgiani/.nuget/packages/",
+        "outputPath": "/home/danielgiorgiani/source/quorum-coding-challenge/quorum-data/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/danielgiorgiani/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[31.0.2, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "Xunit": {
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "newtonsoft.json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.202/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
